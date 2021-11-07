@@ -1,0 +1,197 @@
+body {
+    height: 100%;
+    background-color: #e6ffff;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10%;
+    margin-top: 0;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    border-radius: 90%;
+    height: 200px;
+    width: 200px;
+    margin: 0 60px;
+}
+
+button {
+    padding: 10px 60px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+    transition-duration: 0.4;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 40%;
+}
+hr:after {
+    background: #e6ffff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+i {
+font-size: 2rem;
+color: black;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+
+
+#top1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+/* Image */
+
+.firstBox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.secondBox {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0 ;
+}
+
+.mitzi:hover {
+    opacity: 0.8;
+}
+
+.shane:hover {
+    opacity: 0.8;
+}
+
+
+/*contect*/
+.contect {
+    /* flex: 1 0 auto; */
+    /* background: url("pictures/backgroundImage.jpg");
+    background: ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("pictures/backgroundImage.jpg") no-repeat 0% 20%/ cover;
+}
+
+.btn1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.btnC {
+    font-size: 1.4rem;
+}
+
+.text0 {
+    text-align: left;
+    justify-content: center;
+    margin: 10px 7%;
+}
+
+.text1 {
+    font-size: 2.2rem;
+    line-height: 2.25rem;
+    font-family: 'Dongle', sans-serif;
+}
+
+.text2 {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.h2E {
+    font-family: 'Dongle', sans-serif;
+    font-size: 58px;
+}
+
+.h2C {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 450px) {
+    #top1 {
+        font-size: 20px;
+    }
+    h1 {
+        padding: 16px;
+    }
+    img {
+        border-radius: 90%;
+        height: 100px;
+        width: 100px;
+        margin: 0 13px;
+    }
+    .text1 {
+        font-size: 23px;
+        line-height: 1.4rem;
+        margin-top: 10px;
+    }
+    .h2E {
+        font-size: 50px;
+    }
+    .text2 {
+        font-size: 16px;
+        line-height: 1.6rem;
+        margin-top: 10px;
+    }
+    .h2C {
+        font-size: 25px;
+    }
+    .btnC {
+        padding: 5px 30px;
+        margin: 5px;
+        background-color: white;
+        border: 2px solid gray;
+        border-radius: 8px;
+        transition-duration: 0.4;
+    }
+    button {
+        padding: 5px 30px;
+        margin: 5px;
+        background-color: white;
+        border: 2px solid gray;
+        border-radius: 8px;
+        transition-duration: 0.4;
+        /* font-size: larger; */
+    }
+}
