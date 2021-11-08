@@ -23,6 +23,7 @@ img {
     margin: 0 60px;
 }
 
+
 button {
     padding: 10px 60px;
     margin: 10px;
@@ -60,6 +61,14 @@ a {
     margin: 5px 10px;
 }
 
+p {
+    font-size: 24px;
+}
+
+u {
+    font-size: 25px;
+}
+
 i {
 font-size: 2rem;
 color: black;
@@ -67,13 +76,23 @@ color: black;
 
 footer {
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.text0 {
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    text-align: left;
+
 }
 
 
 
 #top1 {
     text-align: center;
-    font-size: 30px;
     margin-top: 0;
 }
 
@@ -111,67 +130,7 @@ footer {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("pictures/backgroundImage.jpg") no-repeat 0% 20%/ cover;
 }
 
-.btn1 {
-    text-align: center;
-    justify-content: center;
-}
 
-.btnC {
-    font-size: 1.4rem;
-}
-
-.text0 {
-    text-align: left;
-    justify-content: center;
-    margin: 10px 7%;
-}
-
-.text1 {
-    font-size: 2.2rem;
-    line-height: 2.25rem;
-    font-family: 'Dongle', sans-serif;
-}
-
-.text2 {
-    font-size: 1.4rem;
-    line-height: 2.8rem;
-    font-family: 'Noto Sans TC', sans-serif;
-}
-
-.h2E {
-    font-family: 'Dongle', sans-serif;
-    font-size: 58px;
-}
-
-.h2C {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 30px;
-}
-
-.bottomlink {
-    display: flex;
-    justify-content: center;
-}
-
-.cheers {
-    border-radius: 8px;
-    height: 245px;
-    width: 200px;
-    margin: 0 60px;
-}
-.shane2 {
-    border-radius: 8px;
-    height: 200px;
-    width: 300px;
-    margin: 0 60px;
-}
-
-.mitzi2 {
-    border-radius: 8px;
-    height: 250px;
-    width: 190px;
-    margin: 0 60px;
-}
 
 @media only screen and (max-width: 450px) {
     #top1 {
@@ -180,27 +139,28 @@ footer {
     h1 {
         padding: 16px;
     }
-    .mitzi {
+    h2 {
+        font-size: 35px;
+    }
+    img {
         border-radius: 90%;
         height: 100px;
         width: 100px;
         margin: 0 13px;
     }
-    .shane {
-        border-radius: 90%;
-        height: 100px;
-        width: 100px;
-        margin: 0 13px;
+    .span1 {
+        font-size: 16px;
     }
     .text1 {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 1.4rem;
-        margin-top: 10px;
+        margin: 10px 25px;
+
     }
     .h2E {
         font-size: 50px;
     }
-    .text2 {
+    .text0 {
         font-size: 16px;
         line-height: 1.6rem;
         margin-top: 10px;
@@ -210,7 +170,7 @@ footer {
     }
     .btnC {
         padding: 5px 30px;
-        margin: 5px;
+        margin-bottom: 30px;
         background-color: white;
         border: 2px solid gray;
         border-radius: 8px;
@@ -218,43 +178,18 @@ footer {
     }
     button {
         padding: 5px 30px;
-        margin: 5px;
+        margin: 10px;
         background-color: white;
         border: 2px solid gray;
         border-radius: 8px;
         transition-duration: 0.4;
         /* font-size: larger; */
     }
-
-    .bottomlink {
-        display: block;
-    }
-
-    .shane2 {
-        border-radius: 8px;
-        height: 180px;
-        width: 280px;
-        margin: 0 ;
-    }
-    .mitzi2 {
-        border-radius: 8px;
-        height: 250px;
-        width: 190px;
-        margin: 0;
-    }
-    .cheers {
-        border-radius: 8px;
-        height: 250px;
-        width: 190px;
-        margin: 0;
-    }
-
     a {
         text-decoration: none;
         margin: 4px 10px;
     }
-
-    footer {
-        margin-top: 30px;
+    .brn1 {
+        margin: 10px 0;
     }
 }
