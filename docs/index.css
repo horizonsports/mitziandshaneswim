@@ -9,6 +9,7 @@ h1 {
     padding-top: 10%;
     margin-top: 0;
     color: white;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0);
 }
 
 h2 {
@@ -24,19 +25,23 @@ img {
 }
 
 button {
-    padding: 10px 60px;
-    margin: 10px;
+    min-width: 300px;
+    margin: 0 10px;
+    padding: 10px 50px;
     background-color: white;
     border: 2px solid gray;
     border-radius: 8px;
     transition-duration: 0.4;
     font-size: larger;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+
 }
 
 button:hover {
     background-color: gray;
     color: white;
 }
+
 
 hr {
     border: none;
@@ -92,6 +97,15 @@ footer {
     margin: 10px 0 ;
 }
 
+.mitzi {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
+}
+.shane {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
+}
+
 .mitzi:hover {
     opacity: 0.8;
 }
@@ -100,6 +114,16 @@ footer {
     opacity: 0.8;
 }
 
+.photoBtn {
+    font-family: 'Dongle', sans-serif;
+    padding: 0;
+    font-size: 30px;
+}
+.photoBtnC {
+    font-family: 'Dongle', sans-serif;
+    padding: 6px;
+    font-size: 20px;
+}
 
 /*contect*/
 .contect {
@@ -158,12 +182,15 @@ footer {
     height: 245px;
     width: 200px;
     margin: 0 60px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
 .shane2 {
     border-radius: 8px;
     height: 200px;
     width: 300px;
     margin: 0 60px;
+    margin-top: 44px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .mitzi2 {
@@ -171,7 +198,12 @@ footer {
     height: 250px;
     width: 190px;
     margin: 0 60px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
+
+
+
+
 
 @media only screen and (max-width: 450px) {
     #top1 {
@@ -182,15 +214,19 @@ footer {
     }
     .mitzi {
         border-radius: 90%;
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
         margin: 0 13px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
     }
     .shane {
         border-radius: 90%;
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
         margin: 0 13px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
     }
     .text1 {
         font-size: 23px;
@@ -217,6 +253,7 @@ footer {
         transition-duration: 0.4;
     }
     button {
+        min-width: 260px;
         padding: 5px 30px;
         margin: 5px;
         background-color: white;

@@ -23,3 +23,15 @@ function mitzi2() {
   window.location.href =
     "https://newbloommag.net/2017/07/18/ting-universiade-selection-sport-reform/";
 }
+
+function Competitive() {
+  window.location.href = "photoCompetitive.html";
+}
+
+function Beginner() {
+  window.location.href = "photoBeginner.html";
+}
+
+function Master() {
+  window.location.href = "photoMaster.html";
+}

@@ -9,6 +9,7 @@ h1 {
     padding-top: 10%;
     margin-top: 0;
     color: white;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0);
 }
 
 h2 {
@@ -32,6 +33,7 @@ button {
     border-radius: 8px;
     transition-duration: 0.4;
     font-size: larger;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
@@ -93,6 +95,7 @@ footer {
 
 #top1 {
     text-align: center;
+    font-size: 30px;
     margin-top: 0;
 }
 
@@ -109,6 +112,15 @@ footer {
     text-align: center;
     justify-content: center;
     margin: 10px 0 ;
+}
+
+.mitzi {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
+}
+.shane {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
 }
 
 .mitzi:hover {
@@ -142,11 +154,28 @@ footer {
     h2 {
         font-size: 35px;
     }
-    img {
+    /* img {
         border-radius: 90%;
         height: 100px;
         width: 100px;
         margin: 0 13px;
+    }  */
+
+    .mitzi {
+        border-radius: 90%;
+        height: 120px;
+        width: 120px;
+        margin: 0 13px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
+    }
+    .shane {
+        border-radius: 90%;
+        height: 120px;
+        width: 120px;
+        margin: 0 13px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
     }
     .span1 {
         font-size: 16px;
